@@ -1,0 +1,57 @@
+
+<!--NOTLAR;
+        External CSS avantajları;
+            SEO optimizasyonunda fazlasıyla fayda sağlar...
+            Sitenin hızlı çalışmasını sağlar aslında... 
+            aralarda boşluk bırakma aslında  bunlar hızı etkiler...
+
+
+        display: inline; -> bunda aslında widht ve height özelliği verilmez ama 
+        display: inline-block; -> bunda verilir aslında önemli fark budur...
+
+        birden fazla tag' e aynı id ve class tanımlanabilir...
+        eğer aynı özelliklerin kesişimi tek bir tag e verilmek isteniyorsa arada boşluk bırakılarak class ="ucuz pahali" gibi 
+        
+        EMMET Kısayol 
+        p.id.ucuz#ali
+        <p class="id ucuz" id="ali">örnek</p>
+
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdClass</title>
+    <style> 
+        h1{
+            color: indigo;
+        }
+        #lorme{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: 1px double red;
+        }
+        .ucuz{
+            font-size: 23px;
+            color: brown;
+        }
+        .pahali{
+            display: inline-block;
+            width: 43px;
+            height: 43px;
+            font-size: 43px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>ID and Class </h1>
+    <p id="lorme">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="ucuz">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="pahali">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="lorme" class="ucuz">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p id="lorme" class="ucuz pahali">Lorem ipsum dolor sit.</p>
+</body>
+</html>
+
