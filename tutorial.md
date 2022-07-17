@@ -9,8 +9,11 @@ Bu özellik çizgiyi nereye koyacağını belirtir.<br>
 ![](https://www.w3.org/TR/css-backgrounds-3/images/borderstyles.png)
 ## Padding and Margine
 ![](https://www.w3.org/TR/css-backgrounds-3/images/box.png)
-
+## with widht and height
+![](https://openhome.cc/eGossip/JavaScript/images/ElementDimensions-2.png)
 - ***padding*** ; aslında bu bir nevi iç kısmından border ' a olan uzaklığıdır.
 - ***margin*** ;  border ile dışı arasındaki kısımın ne olduğu
-
+- ***width*** ; genişlik
+- ***height*** ; yükseklik
+- 
 
