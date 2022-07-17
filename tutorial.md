@@ -15,5 +15,7 @@ Bu özellik çizgiyi nereye koyacağını belirtir.<br>
 - ***margin*** ;  border ile dışı arasındaki kısımın ne olduğu
 - ***width*** ; genişlik
 - ***height*** ; yükseklik
-- 
+-
+
+**UYARI !!!** : daire yapmak için *border-radius: 50%* yapman yeterli olacaktır.
 
