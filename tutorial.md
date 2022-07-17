@@ -15,7 +15,7 @@ Bu özellik çizgiyi nereye koyacağını belirtir.<br>
 - ***margin*** ;  border ile dışı arasındaki kısımın ne olduğu
 - ***width*** ; genişlik
 - ***height*** ; yükseklik
--
-
-**UYARI !!!** : daire yapmak için *border-radius: 50%* yapman yeterli olacaktır.
+- ***border-radius*** ; aslında bu ne kadarlık açıyla overlok çekeceğini söylüyor. diğerleri gibi *top,right,bottom,left* şeklinde de detaylı işleyebilirsin. 
+- ***color*** ; *rgb,rgba,#,ismi,hsl,hsla* şeklinde detayla yapılabilir.<br/>
+**UYARI !!!** : daire yapmak için *border-radius: 50%;* yapman yeterli olacaktır.
 
