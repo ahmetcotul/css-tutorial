@@ -3,6 +3,9 @@ First one this repository is not a project repo. It's a tutorial of repository..
 
 ## Text
 1. **text-align** :
+
+
+    ![](https://imgur.com/NFxHy56.png)
   - *center* ; merkezde durması demek
   - *left* ; sola dayalı bir şekilde hiza
   - *right* ; sağa hizalı
@@ -20,8 +23,16 @@ First one this repository is not a project repo. It's a tutorial of repository..
 3. **text-decoration**;
 
 
-  ![](https://imgur.com/jWXXa1F.png) 
-- *underline* ; altında çizgi oluşturur
+    ![](https://imgur.com/jWXXa1F.png) 
+
+
+*Example =*
+```html
+<p style="text-decoration:none;">none</p>
+```
 - *none* ; çizgi oluşturmaz 
-- *overline* ; metnin üst kısmına çizgi çeker 
+- *underline* ; altında çizgi oluşturur
 - *line-through* ; metni çizer 
+- *overline* ; metnin üst kısmına çizgi çeker 
+
+
