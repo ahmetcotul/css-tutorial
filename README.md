@@ -69,7 +69,7 @@ First one this repository is not a project repo. It's a tutorial of repository..
 5. **Text Spacing** ~
 
 
-    I. **text-indent**: 
+    I. **text-indent**: paragraf girintisidir.
     
     
     [![https://imgur.com/9BrVwI4.png](https://imgur.com/9BrVwI4.png)](https://imgur.com/9BrVwI4.png)
@@ -78,10 +78,10 @@ First one this repository is not a project repo. It's a tutorial of repository..
     <!--How to Use?-->
     <p style="text-indent:100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
-    - paragraf girintisidir.
+    
 
           
-    II. **letter-spacing**:
+    II. **letter-spacing**: harfler arası mesafedir.
 
 
     [![https://imgur.com/02xeO7H.png](https://imgur.com/02xeO7H.png)](https://imgur.com/02xeO7H.png)
@@ -90,10 +90,10 @@ First one this repository is not a project repo. It's a tutorial of repository..
     <!--How to Use?-->
     <p style="letter-spacing:5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
-    - harfler arası mesafedir.
     
     
-    III. **line-height**:
+    
+    III. **line-height**: satırlar arası mesafedir.
     
     [![https://imgur.com/Y7oDpfF.png](https://imgur.com/Y7oDpfF.png)](https://imgur.com/Y7oDpfF.png)
     ```html
@@ -102,24 +102,28 @@ First one this repository is not a project repo. It's a tutorial of repository..
     <p style="line-height:1.7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     <p style="line-height:1.7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
-    - satırlar arası mesafedir.
     
     
-    IV. **word-spacing** : 
+    
+    IV. **word-spacing** : kelimeler arası boşluktur
+    
+    
+    [![https://imgur.com/wgt9AYW.png](https://imgur.com/wgt9AYW.png)](https://imgur.com/wgt9AYW.png)
+    
     
     ```html
     <!--How to Use?-->
-    <p style="word-spacing:10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <p style="word-spacing:60px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
-    - kelimeler arası boşluktur
+   
 
 
-    V. **white-space** :
+    V. **white-space** : boşlukların nasıl işleneceğini belirtir.
     
     ```html
     <!--How to Use?-->
     <p style="white-space:nowrap;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
-    - boşlukların nasıl işleneceğini belirtir.
+   
     
 
