@@ -49,3 +49,21 @@ First one this repository is not a project repo. It's a tutorial of repository..
 - *overline* ; metnin üst kısmına çizgi çeker 
 
 
+4. **text-shadow**;
+
+
+    ![](https://imgur.com/7E4hduI.png) 
+
+
+
+```html
+<!--How to Use?-->
+<p style="text-shadow:2px 4px 6px red;">none</p>
+```
+- *2px* ; yatay olarak 2px öteleyerek gölge oluşturur.
+- *4px* ; dikey olarak öteleyerek...
+- *6px* ; opaklık belirtir.
+- *red* ; rengini belirtir. 
+
+
+
