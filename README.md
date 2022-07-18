@@ -95,7 +95,7 @@ First one this repository is not a project repo. It's a tutorial of repository..
     
     III. **line-height**: satırlar arası mesafedir.
     
-    [![https://imgur.com/Y7oDpfF.png](https://imgur.com/Y7oDpfF.png)](https://imgur.com/Y7oDpfF.png)
+    [![https://imgur.com/QdnAoGq.png](https://imgur.com/QdnAoGq.png)](https://imgur.com/QdnAoGq.png)
     ```html
     <!--How to Use?-->
     <p style="line-height:1.7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
