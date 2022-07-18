@@ -72,15 +72,19 @@ First one this repository is not a project repo. It's a tutorial of repository..
     I. **text-indent**: 
     
     
+    [![https://imgur.com/9BrVwI4.png](https://imgur.com/9BrVwI4.png)](https://imgur.com/9BrVwI4.png)
+    
     ```html
     <!--How to Use?-->
-    <p style="text-indent:25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <p style="text-indent:100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
     - paragraf girintisidir.
 
           
     II. **letter-spacing**:
 
+
+    [![https://imgur.com/02xeO7H.png](https://imgur.com/02xeO7H.png)](https://imgur.com/02xeO7H.png)
     
     ```html
     <!--How to Use?-->
@@ -91,11 +95,12 @@ First one this repository is not a project repo. It's a tutorial of repository..
     
     III. **line-height**:
     
-    
+    [![https://imgur.com/Y7oDpfF.png](https://imgur.com/Y7oDpfF.png)](https://imgur.com/Y7oDpfF.png)
     ```html
     <!--How to Use?-->
-    <p style="line-height:1.5;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
-    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <p style="line-height:1.7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <p style="line-height:1.7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <p style="line-height:1.7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
     ```
     - satırlar arası mesafedir.
     
