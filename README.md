@@ -5,10 +5,12 @@ First one this repository is not a project repo. It's a tutorial of repository..
 1. **text-align** :
     
 
-```html
-<p style="text-decoration:none;">none</p>
-```
    ![](https://imgur.com/NFxHy56.png)
+   
+```html
+<!--How to Use?-->
+<p style="text-align:center;">center</p>
+```
     
   - *center* ; merkezde durması demek
   - *left* ; sola dayalı bir şekilde hiza
