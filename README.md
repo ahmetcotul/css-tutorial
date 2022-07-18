@@ -3,9 +3,13 @@ First one this repository is not a project repo. It's a tutorial of repository..
 
 ## Text
 1. **text-align** :
+    
 
-
-    ![](https://imgur.com/NFxHy56.png)
+```html
+<p style="text-decoration:none;">none</p>
+```
+   ![](https://imgur.com/NFxHy56.png)
+    
   - *center* ; merkezde durması demek
   - *left* ; sola dayalı bir şekilde hiza
   - *right* ; sağa hizalı
@@ -26,8 +30,9 @@ First one this repository is not a project repo. It's a tutorial of repository..
     ![](https://imgur.com/jWXXa1F.png) 
 
 
-*Example =*
+
 ```html
+<!--How to Use?-->
 <p style="text-decoration:none;">none</p>
 ```
 - *none* ; çizgi oluşturmaz 
