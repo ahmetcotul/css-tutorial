@@ -66,4 +66,55 @@ First one this repository is not a project repo. It's a tutorial of repository..
 - *red* ; rengini belirtir. 
 
 
+5. **Text Spacing** ~
+
+
+    I. **text-indent**: 
+    
+    
+    ```html
+    <!--How to Use?-->
+    <p style="text-indent:25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    ```
+    - paragraf girintisidir.
+
+          
+    II. **letter-spacing**:
+
+    
+    ```html
+    <!--How to Use?-->
+    <p style="letter-spacing:5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    ```
+    - harfler arası mesafedir.
+    
+    
+    III. **line-height**:
+    
+    
+    ```html
+    <!--How to Use?-->
+    <p style="line-height:1.5;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    ```
+    - satırlar arası mesafedir.
+    
+    
+    IV. **word-spacing** : 
+    
+    ```html
+    <!--How to Use?-->
+    <p style="word-spacing:10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    ```
+    - kelimeler arası boşluktur
+
+
+    V. **white-space** :
+    
+    ```html
+    <!--How to Use?-->
+    <p style="white-space:nowrap;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+    ```
+    - boşlukların nasıl işleneceğini belirtir.
+    
 
