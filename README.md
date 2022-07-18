@@ -21,7 +21,7 @@ First one this repository is not a project repo. It's a tutorial of repository..
 2. **text-transform** : 
 
 
-![text-transform example image](https://imgur.com/OCQD6xR.png)
+    ![text-transform example image](https://imgur.com/OCQD6xR.png)
 ```html
 <!--How to Use?-->
 <p style="text-transform:uppercase;">uppercase</p>
