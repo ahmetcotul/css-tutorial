@@ -161,9 +161,7 @@ tus molestiae eveniet labore eos dolore provident optio. Ducimus eligendi eos de
 3. **font** : yazı stili ve boyutunu aynı taglarda belirtebiliriz.
 
 
-    <a href="https://imgur.com/gDteyF6.png">
-  <img src="https://imgur.com/gDteyF6.png" />
-</a>
+   <a href="https://imgur.com/gDteyF6.png"><img src="https://imgur.com/gDteyF6.png" /></a>
 
 
 ```html
@@ -173,3 +171,23 @@ adipisicing elit. Quia placeat repellat dolores soluta neque eum molestias sint 
 tus molestiae eveniet labore eos dolore provident optio. Ducimus eligendi eos deserunt.</p>
 
 ```
+
+
+
+
+# CSS SELECTORS
+
+
+Selectorün kelime anlamı türkçede seçici demektir. 
+CSS deki karşılı ise kapsayıcı aynı şekilde seçici anlamında kullanılabilir...
+
+
+## 1. Grup Selector
+
+- `*{ css: code;}` : hepsini seçmede...
+- `p{ css: code;}` : tüm p taglarini....
+- `div.deneme{ css: code;}` : div taglarinden deneme class'ı olan...
+- `div , p{ css : code;}`: tüm div ve tüm p ler...
+- `div ~ p{ css : code;}`: div ile p aynı seviyede olan tüm p leri seçer.
+- `div > p{ css : code;}`: div=**parent** p=**chield** anne babası div olan tüm p ler
+- `div + p{ css : code;}`: div ile p aynı seviyede olan ilk ve tek p yi seçer..
