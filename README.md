@@ -201,7 +201,7 @@ CSS deki karşılı ise kapsayıcı aynı şekilde seçici anlamında kullanıla
 - `a[target="_blank"]{ css: code; }` : html taginin attribute unu alır sonra bu attributeun şartını atar..
 
 
-## 3.Pseudo Selectors
+## 3.Pseudo Selectors 
     
 
 I. Pseudo Element : parça giden yapılar. örnek ; ilk harf seçme, ilk satır falan...
@@ -212,3 +212,11 @@ I. Pseudo Element : parça giden yapılar. örnek ; ilk harf seçme, ilk satır 
 - `p::first-letter{color:blue;}`: direk css özellikleri belirtilir. Ilk harf seçmek için
 - `p::first-line{color: red;}`  : ilk satırı seçer, ilk satır seçili olur...
 
+
+II. Pseudo Class : LeVHA 
+
+
+- `a:link{}` : tıklanmazsa          Link
+- `a:visited{}` : tıklanırsa        Visited
+- `a:hover{}` : üzerine gelince     Hover
+- `a:active{}` : tıklandıktan sonra Active
