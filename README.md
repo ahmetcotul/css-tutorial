@@ -191,3 +191,24 @@ CSS deki karşılı ise kapsayıcı aynı şekilde seçici anlamında kullanıla
 - `div ~ p{ css : code;}`: div ile p aynı seviyede olan tüm p leri seçer.
 - `div > p{ css : code;}`: div=**parent** p=**chield** anne babası div olan tüm p ler
 - `div + p{ css : code;}`: div ile p aynı seviyede olan ilk ve tek p yi seçer..
+
+
+## 2. Attribute Selectors 
+
+
+`p[ornek="saglarsa"]{ css : code;}` : "[]" içindeki yapı attribute sağlarsa css code çalışır şeklinde
+- `input[type ="text"]{color : red;]` : tipi text olan input taginin rengini değiştirmek
+- `a[target="_blank"]{ css: code; }` : html taginin attribute unu alır sonra bu attributeun şartını atar..
+
+
+## 3.Pseudo Selectors
+    
+
+I. Pseudo Element : parça giden yapılar. örnek ; ilk harf seçme, ilk satır falan...
+
+
+- `h1::after{content:"_sonra"}` : content yazılmalıdır!! .. sonra ne geleceğini belirtir..
+- `h1::before{content:"_önce"}` : " " ... öncesi için...
+- `p::first-letter{color:blue;}`: direk css özellikleri belirtilir. Ilk harf seçmek için
+- `p::first-line{color: red;}`  : ilk satırı seçer, ilk satır seçili olur...
+
