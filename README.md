@@ -126,4 +126,50 @@ First one this repository is not a project repo. It's a tutorial of repository..
     ```
    
     
+# FONT
 
+
+1. **font-size** : yazı boyutu ayarlamak içindir.
+
+
+    [![https://imgur.com/KgmoX9k.png](https://imgur.com/KgmoX9k.png)](https://imgur.com/KgmoX9k.png)
+    
+
+```html
+    <!--How to Use?-->
+    <p style="font-size:60px;">  Hello There  </p>
+```
+    
+2. **font-family** : yazı tipi ayarlamak için gerekli bir şeydir.
+
+
+    [![https://imgur.com/1cUUICj.png](https://imgur.com/1cUUICj.png)](https://imgur.com/1cUUICj.png)
+
+
+Google Fonts: [fonts.google.com](https://fonts.google.com/)..... burdan ilgili yazı stili kopyalanıp copy-paste ile kullanılabilir.
+
+
+```html
+ <!--How to Use?-->
+<p style="font-family: 'Edu VIC WA NT Beginner', cursive;">Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Quia placeat repellat dolores soluta neque eum molestias sint temporibus? Delec
+tus molestiae eveniet labore eos dolore provident optio. Ducimus eligendi eos deserunt.</p>
+
+```
+
+
+3. **font** : yazı stili ve boyutunu aynı taglarda belirtebiliriz.
+
+
+    <a href="https://imgur.com/gDteyF6.png">
+  <img src="https://imgur.com/gDteyF6.png" />
+</a>
+
+
+```html
+ <!--How to Use?-->
+<p style="font: 13px 'Edu VIC WA NT Beginner', cursive;">Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Quia placeat repellat dolores soluta neque eum molestias sint temporibus? Delec
+tus molestiae eveniet labore eos dolore provident optio. Ducimus eligendi eos deserunt.</p>
+
+```
