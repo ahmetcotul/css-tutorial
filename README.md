@@ -243,6 +243,25 @@ II. Pseudo Class : LeVHA
 
 
 [![https://imgur.com/2B3V5ct.png](https://imgur.com/2B3V5ct.png)](https://imgur.com/2B3V5ct.png)
+> hesaplama yaparken yukarıyı hesaba kat..
+en az bir sapmada taşar
+
+
+1. **content-box**: width + padding + border + margin / height + padding + border + margin
+      
+    - *default box-sizing content-box'tır..*
+
+2. **border-box** : width + padding + border / height + padding + border
+
+    - margin sayılmaz burda sözü geçmezz... yani margin width in içinde.....
+ 
+
+
+
+
+
+
+
 
  ## down
  [up](#css-tutorial)
