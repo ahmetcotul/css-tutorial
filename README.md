@@ -220,3 +220,16 @@ II. Pseudo Class : LeVHA
 - `a:visited{}` : tıklanırsa        Visited
 - `a:hover{}` : üzerine gelince     Hover
 - `a:active{}` : tıklandıktan sonra Active
+
+
+# CSS BOX
+
+
+- `opacity: 0.5;` : 0 <= x <= 1  arasında değer alır bulanıklık ayarıdır her taga uygulanabilir
+0 olursa kaybeder, bir olunca opaklık var....
+
+
+## BOX MODEL
+
+
+[![https://imgur.com/2B3V5ct.png](https://imgur.com/2B3V5ct.png)](https://imgur.com/2B3V5ct.png)
