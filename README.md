@@ -273,10 +273,10 @@ en az bir sapmada taşar
 `box-shadow: 2px 3px 4x 7x red;`
 
 
-    - *2px* : X ekseni
-    - *3x*  : Y ekseni
-    - *4x*  : Bulanıklık
-    - *7x*  : Bulanıklık boyutu
+    - 2px : X ekseni
+    - 3x  : Y ekseni
+    - 4x  : Bulanıklık
+    - 7x  : Bulanıklık boyutu
 
 
 - **transition** : animasyon, mutlaka :hover vs. verilmeli(pseudo class)= bu sonrasında ne olacağını belirtir yani nasıl olduğunda bir dönüşüm olsun...
