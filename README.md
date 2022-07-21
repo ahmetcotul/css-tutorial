@@ -261,15 +261,42 @@ en az bir sapmada taşar
 - **display** : bu nasıl görüneceğini belirtir
 
 
-- `display:inline;` : aynı satır içinde diğer taglarla
-- `display: block;` : blok olarak (default) 
-- `display: none;` : göstermez hiç sayar..
-- `display:inline-block;` : hem satır içinde hem de blok özelliği var...
+    - `display:inline;` : aynı satır içinde diğer taglarla
+    - `display: block;` : blok olarak (default) 
+    - `display: none;` : göstermez hiç sayar..
+    - `display:inline-block;` : hem satır içinde hem de blok özelliği var...
+    
+
+- **box-shadow** : kutunun gölgesi
+
+
+`box-shadow: 2px 3px 4x 7x red;`
+
+
+    - *2px* : X ekseni
+    - *3x*  : Y ekseni
+    - *4x*  : Bulanıklık
+    - *7x*  : Bulanıklık boyutu
+
+
+- **transition** : animasyon, mutlaka :hover vs. verilmeli(pseudo class)= bu sonrasında ne olacağını belirtir yani nasıl olduğunda bir dönüşüm olsun...
+
+
+`transition: width 2s, height 1s, background 1s ;`
+
+ 
+ - **transition-delay** : animasyon gecikmesi nasıl olacağını belirtir...
+ 
+ 
+ `transition-delay: 2s;` : saniye cinsinden belirtilmiş
+ 
+ 
+ - **transition-timing-function** : hızlanmanın nasıl olacaağını belirtir..... 
+ 
 
 
 
-
-
+    	
 
  ## down
  [up](#css-tutorial)
