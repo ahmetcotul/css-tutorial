@@ -256,7 +256,15 @@ en az bir sapmada taşar
     - margin sayılmaz burda sözü geçmezz... yani margin width in içinde.....
  
 
+## Onemli Bilgiler
 
+- **display** : bu nasıl görüneceğini belirtir
+
+
+- `display:inline;` : aynı satır içinde diğer taglarla
+- `display: block;` : blok olarak (default) 
+- `display: none;` : göstermez hiç sayar..
+- `display:inline-block;` : hem satır içinde hem de blok özelliği var...
 
 
 
