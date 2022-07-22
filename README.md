@@ -329,5 +329,95 @@ div{
 - `overflow-y : /*yukarıdakilerden biri*/;` : y dikey ekseninde ayarlama..
     	
 
+## Float 
+resim ve blok konumlandırma yapılarında işe yarar....
+
+
+[![https://imgur.com/3mDg0cp.png](https://imgur.com/3mDg0cp.png)](https://imgur.com/3mDg0cp.png)
+
+
+-   `float : none; ` : hiçbiryere konumlandırma..
+-   `float : right;` : sadece sağa konumlandır..
+-   `float : left;`  : sadece sola konumlandır..
+
+
+
+## Float Overflow
+
+
+[![https://imgur.com/obonAqI.png](https://imgur.com/obonAqI.png)](https://imgur.com/obonAqI.png)
+
+
+Bunu çözen hali hazırda üç algoritma bulunmakta bunlar;
+
+
+1.  **float clearfix-1**;
+```html
+    <div style="clear: both;">
+        <img style="float:right;" src="" alt="" />
+        <p>lorem*10</p>
+    </div>
+```
+
+
+2.  **float clearfix-2**;
+```html
+    <div style="overflow:auto;">
+        <img style="float:right;" src="" alt="" />
+        <p>lorem*10</p>
+    </div>
+```
+
+
+
+3.  **float clearfix-3**;
+```html
+    <div class="clearfix">
+        <img src="" alt="" />
+        <p>lorem*10</p>
+    </div>
+```
+
+```css
+    .clearfix::after{
+        content:"";
+        clear:"both";
+        display: block; /*ya da table*/
+        
+    }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  ## down
  [up](#css-tutorial)
