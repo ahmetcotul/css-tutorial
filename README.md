@@ -388,6 +388,17 @@ Bunu çözen hali hazırda üç algoritma bulunmakta bunlar;
 ```
 
 
+## CSS Position
+
+FARSS
+
+
+-   **fixed** : Anasayfa içerisinde sabit kalan bölgeler için kullanılır.. sohbet botları Bize NE sormak istersiniz....
+-   **absolute** : sıfıra sıfır noktasına göre(ebeveynine göre) kendini ayarlamada...
+-   **relative** : yukarıda olan dive göre ayarlaması kendini bir üstündekine göre
+-   **static** : default olarak gelir.... bir esprisi yok
+-   **sticky** : kaydırırken sabit kalan yapılarda geçerli olan bir şey özellikle:.....
+
 
 
 
