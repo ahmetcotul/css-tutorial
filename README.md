@@ -294,8 +294,39 @@ en az bir sapmada taşar
  - **transition-timing-function** : hızlanmanın nasıl olacaağını belirtir..... 
  
 
+- **overflow** : 
 
 
+```html
+<div>
+    <p>lorem*10</p>
+</div>
+```
+```css
+div{
+    width: 400px;
+    height: 150px; 
+    background-color: orange;
+    overflow : auto; /*auto make an adjustment*/
+
+}
+
+```
+
+
+
+
+
+
+
+
+
+- `overflow : scroll;` : scroll bar çıkmasını sağlayıp taşmayı önler.
+- `overflow : hidden;` : taşmayı gizler.
+- `overflow : auto;` : otomatik taşma ayarlması yapar.
+- `overflow : visible; ` : taşmaya izin verir ... Göz göre göre :D
+- `overflow-x : /*yukarıdakilerden biri*/;` : x yatay ekseninde ayarlama..
+- `overflow-y : /*yukarıdakilerden biri*/;` : y dikey ekseninde ayarlama..
     	
 
  ## down
